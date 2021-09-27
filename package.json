@@ -12,7 +12,6 @@
     "start:my-app2": "yarn workspace my-app2 start",
     "build:my-app2": "yarn workspace my-app2 build",
     "prepare": "husky install",
-    "version": "lerna version --no-push",
     "release": "lerna publish"
   },
   "lint-staged": {
