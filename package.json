@@ -8,7 +8,9 @@
   },
   "scripts": {
     "start:my-app": "yarn workspace my-app start",
+    "build:my-app": "yarn workspace my-app build",
     "start:my-app2": "yarn workspace my-app2 start",
+    "build:my-app2": "yarn workspace my-app2 build",
     "prepare": "husky install"
   },
   "lint-staged": {
@@ -16,10 +18,6 @@
       "prettier --write",
       "git add"
     ]
-  },
-  "dependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^13.1.0",
