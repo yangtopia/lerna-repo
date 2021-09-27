@@ -11,12 +11,6 @@
     "start:my-app2": "yarn workspace my-app2 start",
     "prepare": "husky install"
   },
-  "commitlint": {
-    "extends": [
-      "@commitlint/config-conventional",
-      "@commitlint/config-lerna-scopes"
-    ]
-  },
   "lint-staged": {
     "*.{ts,tsx,html,scss}": [
       "prettier --write",
